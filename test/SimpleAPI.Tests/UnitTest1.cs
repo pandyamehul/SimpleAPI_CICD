@@ -1,4 +1,4 @@
-using System;
+using System.Diagnostics;
 using Xunit;
 using SimpleAPI.Controllers;
 
@@ -19,6 +19,11 @@ namespace SimpleAPI.Tests
         {
             var returnValue = controller.Get(1);
             Assert.Equal("Mehul Pandya", returnValue.Value);
+        }
+
+        [Fact]
+        public void GetReturnValues(){
+            var returnVal = controller.Get();            
         }
     }
 }
