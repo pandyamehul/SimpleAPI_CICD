@@ -11,7 +11,7 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Dot net", "Enabled CI/CD", "This is .net core demo" };
+            return new string[] { "Dot net", "Enabled CI/CD", "This is .net core demo", "this is update to the api" };
         }
 
         // GET api/values/5
