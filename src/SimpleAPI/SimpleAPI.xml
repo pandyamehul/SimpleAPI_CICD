@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SimpleAPI.Controllers.ValuesController.Get">
+            <summary>
+            Get API Value
+            </summary>
+            <returns>Returns the array of string</returns>
+            <remarks>This API will get all the values that are there in array</remarks>
+        </member>
+    </members>
+</doc>

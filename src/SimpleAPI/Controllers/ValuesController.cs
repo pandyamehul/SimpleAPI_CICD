@@ -8,6 +8,11 @@ namespace SimpleAPI.Controllers
     public class ValuesController : ControllerBase
     {
         // GET api/values
+        /// <summary>
+        /// Get API Value
+        /// </summary>
+        /// <returns>Returns the array of string</returns>
+        /// <remarks>This API will get all the values that are there in array</remarks>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
