@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Mehul\GitCodeRepo\Core.API.CICD_Demo\src\SimpleAPI\SimpleAPI.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.2\SimpleAPI.xml</DocumentationFile>
     <OutputPath>bin\Debug\netcoreapp2.2</OutputPath>
   </PropertyGroup>
 
